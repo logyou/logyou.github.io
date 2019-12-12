@@ -1,3 +1,10 @@
+---
+theme: jekyll-theme-cayman
+layout: post
+title: "Fibonacci"
+permalink: /algorithm/fibonacci/
+---
+
 # 一、递归
 
 ```java
