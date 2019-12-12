@@ -5,6 +5,7 @@ description: 记录学习中的点滴，总结工作中的收获。
 author: lyh
 email: logyou@msn.com
 lang: zh-CN
+timezone: Asia/Shanghai
 
 permalink: :year/:month/:day/:title
 
