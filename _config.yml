@@ -3,5 +3,6 @@ title: 技术之路
 subtitle: 发掘最佳实践，推动技术革新，优化系统架构，致力于提升研发效率与协作效率，对全栈开发有深刻理解。
 description: 记录学习中的点滴，总结工作中的收获。
 author: lyh
+language: zh-CN
 
 permalink: :year/:month/:day/:title/
