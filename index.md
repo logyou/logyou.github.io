@@ -5,15 +5,18 @@
 # 编程语言
 - ## Java
 
+# 设计模式
+- ## 常见模式
+
 # 数据存储
 - ## MySQL
 - ## Redis
 
 # 基础框架
-## Spring Boot
-## Spring Cloud
-## Dubbo
-## Nacos
+- ## Spring Boot
+- ## Spring Cloud
+- ## Dubbo
+- ## Nacos
 
 # 数据结构
 
