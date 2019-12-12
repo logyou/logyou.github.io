@@ -1,6 +1,4 @@
 ---
-theme: jekyll-theme-cayman
-layout: post
 title: "Fibonacci"
 permalink: /algorithm/fibonacci/
 ---
