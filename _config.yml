@@ -8,5 +8,3 @@ lang: zh-CN
 timezone: Asia/Shanghai
 
 permalink: :year/:month/:day/:title
-
-site-footer-credits: Copyright @ lyh 2019
