@@ -1,6 +1,6 @@
 # 效率工具
-## Git
-## IntelliJ IDEA
+## - Git
+## - IntelliJ IDEA
 
 # 编程语言
 ## Java
