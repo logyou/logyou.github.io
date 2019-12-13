@@ -25,3 +25,6 @@
 
 # 面试宝典
 - ## [常见问题](interview-bible)
+
+# 饮食健康
+- ## [清淡食谱](healthy-diet)
