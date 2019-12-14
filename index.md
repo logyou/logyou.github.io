@@ -3,7 +3,7 @@
 - ## IntelliJ IDEA
 
 # 编程语言
-- ## Java
+- ## [Java](java)
 
 # 设计模式
 - ## 常见模式
