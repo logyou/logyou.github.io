@@ -10,7 +10,7 @@
 
 # 数据存储
 - ## MySQL
-- ## Redis
+- ## [Redis](redis)
 
 # 基础框架
 - ## Spring Boot
