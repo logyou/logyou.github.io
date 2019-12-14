@@ -8,7 +8,7 @@
 
 每个 Java 方法在执行的同时会创建一个栈帧用于存储局部变量表、操作数栈、常量池引用等信息。从方法调用直至执行完成的过程，对应着一个栈帧在 Java 虚拟机栈中入栈和出栈的过程。
 
-<div align="center"> <img src="pics/8442519f-0b4d-48f4-8229-56f984363c69.png" width="400px"> </div><br>
+![](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/8442519f-0b4d-48f4-8229-56f984363c69.png)
 
 可以通过 -Xss 这个虚拟机参数来指定每个线程的 Java 虚拟机栈内存大小，在 JDK 1.4 中默认为 256K，而在 JDK 1.5+ 默认为 1M：
 
@@ -26,7 +26,7 @@ java -Xss2M HackTheJava
 本地方法栈与 Java 虚拟机栈类似，它们之间的区别只不过是本地方法栈为本地方法服务。
 
 本地方法一般是用其它语言（C、C++ 或汇编语言等）编写的，并且被编译为基于本机硬件和操作系统的程序，对待这些方法需要特别处理。
-![image](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/8442519f-0b4d-48f4-8229-56f984363c69.png)
+![](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/8442519f-0b4d-48f4-8229-56f984363c69.png)
 
 # 堆
 
