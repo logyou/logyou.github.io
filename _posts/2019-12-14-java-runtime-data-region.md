@@ -1,4 +1,4 @@
-![Java Runtime Data Region](/images/java-runtime-data-region)
+![Java Runtime Data Region](/images/java-runtime-data-region.png)
 
 # 程序计数器
 
