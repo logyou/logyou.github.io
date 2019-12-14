@@ -1,6 +1,6 @@
 # ![](/images/dev-tool.png)效率工具
-- ## [Git](git)
-- ## IntelliJ IDEA
+![](/images/point.png) ## [Git](git)
+![](/images/point.png) ## IntelliJ IDEA
 
 # 编程语言
 - ## [Java](java)
