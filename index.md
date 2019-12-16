@@ -9,7 +9,7 @@
 > ## ![](/images/arrow-right.png) 常见模式
 
 # 系统架构
-> ## ![](/images/arrow-right.png) 分布式事务
+> ## ![](/images/arrow-right.png) [分布式事务](distributed-transaction.html)
 
 # 数据存储
 > ## ![](/images/arrow-right.png) MySQL
