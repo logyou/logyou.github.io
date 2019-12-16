@@ -8,6 +8,9 @@
 # 设计模式
 > ## ![](/images/arrow-right.png) 常见模式
 
+# 系统架构
+> ## ![](/images/arrow-right.png) 分布式事务
+
 # 数据存储
 > ## ![](/images/arrow-right.png) MySQL
 > ## ![](/images/arrow-right.png) [Redis](redis.html)
