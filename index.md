@@ -12,7 +12,7 @@
 > ## ![](/images/arrow-right.png) [分布式事务](distributed-transaction.html)
 
 # 数据存储
-> ## ![](/images/arrow-right.png) MySQL
+> ## ![](/images/arrow-right.png) [MySQL](mysql.html)
 > ## ![](/images/arrow-right.png) [Redis](redis.html)
 
 # 基础框架
