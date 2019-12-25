@@ -150,6 +150,8 @@ id | username | birthday
 
 ![](https://github.many.cloud/images/b-plus-tree.jpg)
 
+图片来源：[https://www.processon.com/view/5e0232efe4b0250e8aee9a07](https://www.processon.com/view/5e0232efe4b0250e8aee9a07)
+
 从图中可以看到，节点中每项的键（key）就是主键 id 的值，只有叶子节点存有实际数据。
 
 ## 4.2 Hash 索引
@@ -224,6 +226,8 @@ MyISAM 存储引擎支持空间数据索引（R-Tree） ，可以用于地理数
 
 ![](https://github.many.cloud/images/b-plus-tree.jpg)
 
+图片来源：[https://www.processon.com/view/5e0232efe4b0250e8aee9a07](https://www.processon.com/view/5e0232efe4b0250e8aee9a07)
+
 从图中可以看到，叶子节点存储的是实际数据。
 
 ## 5.2 非聚簇索引
@@ -271,6 +275,8 @@ CREATE INDEX idx_username ON user (username);
 ```
 
 ![](https://github.many.cloud/images/mysql-non-clustered-index.jpg)
+
+图片来源：[https://www.processon.com/view/5e0380bce4b0250e8af1e391](https://www.processon.com/view/5e0380bce4b0250e8af1e391)
 
 从图中可以看到，叶子节点存储的是主键 id 的值，先找到 username 对应的主键 id 的值，然后再用主键 id 的值去聚簇索引中找到实际数据。
 
