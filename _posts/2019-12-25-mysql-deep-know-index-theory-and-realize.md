@@ -131,7 +131,7 @@ id | username | birthday
 
 > 用户索引
 
-![](/images/b-plus-tree.png)
+![](/images/b-plus-tree.jpg)
 
 
 
