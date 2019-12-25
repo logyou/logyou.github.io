@@ -214,6 +214,12 @@ MyISAM 存储引擎支持空间数据索引（R-Tree） ，可以用于地理数
 - 　二级索引（非聚簇索引）可能比想象的要更大，因为在二级索引的子节点包含了最优一个几点可能让人有些疑惑，为什么二级索引需要两次索引查找？答案在于二级索引中保存的“行指针”的实质。要记住，二级索引叶子节点保存的不是只想物理位置的指针，而是行的主键值。
 - 这意味着通过二级索引进行查找行，存储引擎需要找到二级索引的子节点获得对应的主键值，然后根据这个值去聚簇索引总超找到对应的行。这里做了重复的工作：两次B-Tree查找，而不是一次。对于InnoDB，自适应哈希索引能够减少这样重复工作。
 
+### 5.1.4 结构图
+
+![](https://github.many.cloud/images/b-plus-tree.jpg)
+
+从图中可以看到，叶子节点存储的是实际数据。
+
 ## 5.2 非聚簇索引
 
 ### 5.2.1 定义
@@ -251,6 +257,12 @@ id | username | birthday
 12 | zhu | 1996-12-09
 
 > 二级索引，以 username 为索引列
+
+给 user 表创建一个名为 idx_username 的普通索引 
+
+```sql
+CREATE INDEX idx_username ON user (username); 
+```
 
 ![](https://github.many.cloud/images/mysql-non-clustered-index.jpg)
 
