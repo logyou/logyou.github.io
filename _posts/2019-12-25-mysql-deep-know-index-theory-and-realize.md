@@ -112,7 +112,18 @@ public class Entry<K, V> {
 
 ### 4.1.3 结构图
 
-> 用户数据
+> 表结构
+
+```sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `birthday` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+> 用户数据，id 为主键
 
 id | username | birthday
 ---|---|---
@@ -129,9 +140,11 @@ id | username | birthday
 11 | xia | 1996-04-19
 12 | zhu | 1996-12-09
 
-> 主键索引，以 id 为索引列
+> 主键索引，以主键 id 为索引列
 
 ![](https://github.many.cloud/images/b-plus-tree.jpg)
+
+从图中可以看到，节点中每项的键（key）就是主键 id 的值，只有叶子节点存有实际数据。
 
 ## 4.2 Hash 索引
 
@@ -209,7 +222,18 @@ MyISAM 存储引擎支持空间数据索引（R-Tree） ，可以用于地理数
 
 ### 5.2.2 结构图
 
-> 用户数据
+> 表结构
+
+```sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `birthday` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+> 用户数据，id 为主键
 
 id | username | birthday
 ---|---|---
@@ -226,9 +250,104 @@ id | username | birthday
 11 | xia | 1996-04-19
 12 | zhu | 1996-12-09
 
-> 二级索引，以 username 为索引列，从图中可以看到，叶子节点存储的是主键 id 的值
+> 二级索引，以 username 为索引列
 
 ![](https://github.many.cloud/images/mysql-non-clustered-index.jpg)
 
+从图中可以看到，叶子节点存储的是主键 id 的值，先找到 username 对应的主键 id 的值，然后再用主键 id 的值去聚簇索引中找到实际数据。
+
 # 6. 索引的语法
+
+## 6.1 普通索引
+
+这是最基本的索引，它没有任何限制。它有以下几种创建方式：
+
+### 6.1.1 创建索引
+
+```sql
+CREATE INDEX index_name ON tbl_name (col_name); 
+```
+
+示例：给 user 表的 username 列创建一个名为 idx_username 的普通索引
+
+```sql
+CREATE INDEX idx_username ON user (username); 
+```
+
+### 6.1.2 修改表结构
+
+```sql
+ALTER TABLE tbl_name ADD INDEX index_name (col_name)
+```
+
+示例：给 user 表的 username 列添加一个名为 idx_username 的普通索引
+
+```sql
+ALTER TABLE user ADD INDEX idx_username (username)
+```
+
+### 6.1.3 创建表的时候直接指定
+
+```sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `birthday` date DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  INDEX idx_username (username)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+### 6.1.4 删除索引
+
+```sql
+DROP INDEX index_name ON tbl_name
+```
+
+示例：从 user 表删除名为 idx_username 的索引
+
+```sql
+DROP INDEX idx_username ON user
+```
+
+
+## 6.2 唯一索引
+它与前面的普通索引类似，不同的就是：索引列的值必须唯一，但允许有空值。如果是组合索引，则列值的组合必须唯一。它有以下几种创建方式：
+
+### 6.2.1 创建索引
+
+```sql
+CREATE UNIQUE INDEX index_name ON tbl_name (col_name)
+```
+
+示例：给 user 表的 username 列创建一个名为 unq_username 的唯一索引
+
+```sql
+CREATE UNIQUE INDEX unq_username ON user (username)
+```
+
+### 6.2.2 修改表结构
+
+```sql
+ALTER TABLE tbl_name ADD UNIQUE index_name (col_name)
+```
+
+示例：给 user 表的 username 列添加一个名为 unq_username 的唯一索引
+
+```sql
+ALTER TABLE user ADD UNIQUE unq_username (username)
+```
+
+### 6.2.3 创建表的时候直接指定
+
+```sql
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `birthday` date DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE unq_username (username)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
 # 7. 索引的优化
