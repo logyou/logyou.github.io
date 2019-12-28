@@ -135,7 +135,7 @@ a {
         <div data-v-c05b47ee="" data-v-592946d2="" st:block="eventsList" class="events-list">
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(&quot;/images/cover.jpg&quot;); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title">效率工具</div>
