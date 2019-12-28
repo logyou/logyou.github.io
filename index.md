@@ -5,6 +5,7 @@ title: 技术档案
 <style>
 body, html {
     word-break: break-word;
+    background-color: #f4f5f5;
 }
 body {
     font-size: 12px;
