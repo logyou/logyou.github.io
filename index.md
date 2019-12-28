@@ -14,12 +14,12 @@ div {
     display: block;
 }
 
-.events-wrap[data-v-c05b47ee] {
+.events-wrap {
     overflow: hidden;
     width: 100%;
 }
 
-.events-list[data-v-c05b47ee] {
+.events-list {
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ div {
     margin-right: -7px;
 }
 
-.events[data-v-08c64233] {
+.events {
     cursor: pointer;
     width: 25%;
     padding-left: 7px;
@@ -40,19 +40,19 @@ div {
 }
 
 @media (max-width: 960px) {
-    .events[data-v-08c64233] {
+    .events {
         width: 33.33%;
     }
 }
 
 @media (max-width: 720px) {
-    .events[data-v-08c64233] {
+    .events {
         width: 50%;
     }
 }
 
 @media (max-width: 480px) {
-    .events[data-v-08c64233] {
+    .events {
         width: 100%;
     }
 }
@@ -62,13 +62,13 @@ a {
     color: #909090;
 }
 
-.events .events-inner .banner[data-v-08c64233] {
+.events .events-inner .banner {
     padding-top: 58.82%;
     background-color: #ccc;
     background-repeat: no-repeat;
 }
 
-.events[data-v-08c64233]:before {
+.events:before {
     content: "";
     position: absolute;
     left: 7px;
@@ -82,7 +82,7 @@ a {
     transition: all .2s linear;
     box-shadow: 1px 1px 1px rgba(0,0,0,.15);
 }
-.message .title[data-v-08c64233] {
+.message .title {
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -96,7 +96,6 @@ a {
 </style>
 
 <div data-v-c05b47ee="" data-v-592946d2="" class="events-wrap">
-![](/images/arrow-right.png)
         <div data-v-c05b47ee="" data-v-592946d2="" st:block="eventsList" class="events-list">
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
