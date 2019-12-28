@@ -1,3 +1,8 @@
+---
+title: 技术档案
+permalink: /index
+---
+
 # 效率工具
 > ## ![](/images/arrow-right.png) [Git](git.html)
 > ## ![](/images/arrow-right.png) IntelliJ IDEA
