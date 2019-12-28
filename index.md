@@ -99,8 +99,15 @@ a {
         <div data-v-c05b47ee="" data-v-592946d2="" st:block="eventsList" class="events-list">
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <img src="/images/cover.jpg" data-v-08c64233="" class="banner" style="background-image: url(&quot;/images/cover.jpg&quot;); background-size: cover;">
-                    </img>
+                    <img src="/images/cover.jpg" data-v-08c64233="" class="banner">
+                    <div data-v-08c64233="" class="message">
+                        <div data-v-08c64233="" class="title">效率工具</div>
+                    </div>
+                </div>
+            </a>
+            <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
+                <div data-v-08c64233="" class="events-inner">
+                    <img src="/images/cover.jpg" data-v-08c64233="" class="">
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title">效率工具</div>
                     </div>
