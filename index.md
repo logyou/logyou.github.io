@@ -2,42 +2,6 @@
 title: 技术档案
 ---
 
-# 效率工具
-> ## ![](/images/arrow-right.png) [Git](git.html)
-> ## ![](/images/arrow-right.png) IntelliJ IDEA
-
-# 编程语言
-> ## ![](/images/arrow-right.png) [Java](java.html)
-
-# 设计模式
-> ## ![](/images/arrow-right.png) 常见模式
-
-# 系统架构
-> ## ![](/images/arrow-right.png) [分布式事务](distributed-transaction.html)
-
-# 数据存储
-> ## ![](/images/arrow-right.png) [MySQL](mysql.html)
-> ## ![](/images/arrow-right.png) [Redis](redis.html)
-
-# 基础框架
-> ## ![](/images/arrow-right.png) Spring Boot
-> ## ![](/images/arrow-right.png) Spring Cloud
-> ## ![](/images/arrow-right.png) Dubbo
-> ## ![](/images/arrow-right.png) Nacos
-
-# 数据结构
-
-# 操作系统
-
-# 经典算法
-> ## ![](/images/arrow-right.png) 排序
-
-# 面试宝典
-> ## ![](/images/arrow-right.png) [常见问题](interview-bible.html)
-
-# 饮食健康
-> ## ![](/images/arrow-right.png) [清淡食谱](healthy-diet.html)
-
 <style>
 body, html {
     word-break: break-word;
@@ -144,7 +108,7 @@ a {
             </a>
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(&quot;https://user-gold-cdn.xitu.io/157414658090453637ae79707c7abe756d886db477dce.jpg?imageView2/1/w/460/h/270/q/85/format/webp/interlace/1&quot;); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title">效率工具</div>
@@ -153,7 +117,7 @@ a {
             </a>
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(https://github.many.cloud/images/cover.jpg); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title">效率工具</div>
@@ -172,3 +136,39 @@ a {
 
         </div>
     </div>
+
+# 效率工具
+> ## ![](/images/arrow-right.png) [Git](git.html)
+> ## ![](/images/arrow-right.png) IntelliJ IDEA
+
+# 编程语言
+> ## ![](/images/arrow-right.png) [Java](java.html)
+
+# 设计模式
+> ## ![](/images/arrow-right.png) 常见模式
+
+# 系统架构
+> ## ![](/images/arrow-right.png) [分布式事务](distributed-transaction.html)
+
+# 数据存储
+> ## ![](/images/arrow-right.png) [MySQL](mysql.html)
+> ## ![](/images/arrow-right.png) [Redis](redis.html)
+
+# 基础框架
+> ## ![](/images/arrow-right.png) Spring Boot
+> ## ![](/images/arrow-right.png) Spring Cloud
+> ## ![](/images/arrow-right.png) Dubbo
+> ## ![](/images/arrow-right.png) Nacos
+
+# 数据结构
+
+# 操作系统
+
+# 经典算法
+> ## ![](/images/arrow-right.png) 排序
+
+# 面试宝典
+> ## ![](/images/arrow-right.png) [常见问题](interview-bible.html)
+
+# 饮食健康
+> ## ![](/images/arrow-right.png) [清淡食谱](healthy-diet.html)
