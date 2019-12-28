@@ -1,6 +1,5 @@
 ---
 title: 技术档案
-permalink: /index
 ---
 
 # 效率工具
