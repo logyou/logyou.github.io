@@ -102,6 +102,8 @@ a:hover {
     background-color: #fff;
     color: #333;
     line-height:40px;
+    transition: all .2s linear;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.15);
 }
 </style>
 
