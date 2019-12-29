@@ -103,7 +103,7 @@ a {
         <div data-v-c05b47ee="" data-v-592946d2="" st:block="eventsList" class="events-list">
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title"><h3>效率工具</h3></div>
@@ -112,7 +112,7 @@ a {
             </a>
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title"><h1>效率工具</h1></div>
@@ -121,7 +121,16 @@ a {
             </a>
             <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
                 <div data-v-08c64233="" class="events-inner">
-                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
+                    </div>
+                    <div data-v-08c64233="" class="message">
+                        <div data-v-08c64233="" class="title"><h2>效率工具</h2></div>
+                    </div>
+                </div>
+            </a>
+            <a data-v-08c64233="" data-v-c05b47ee="" class="events" href="" rel="nofollow noopener noreferrer" target="_blank" st:name="link" data-v-592946d2="">
+                <div data-v-08c64233="" class="events-inner">
+                    <div data-v-08c64233="" class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
                         <div data-v-08c64233="" class="title"><h2>效率工具</h2></div>
