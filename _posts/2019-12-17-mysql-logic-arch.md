@@ -1,3 +1,8 @@
+---
+title: MySQL逻辑架构
+description: MySQL 底层是如何划分的呢？处理流程又是什么样？
+---
+
 ![MySQL逻辑架构](/images/mysql-logic-arch.png)
 
 最上层的服务并不是 MySQL 所独有的，大多数基于网络的客户端/服务器的工具或者服务都有类似的架构。比如连接处理、授权认证、安全等等。
