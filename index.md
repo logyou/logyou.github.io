@@ -106,7 +106,7 @@ a {
                     <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
-                        <div data-v-08c64233="" class="title">效率工具</div>
+                        <div data-v-08c64233="" class="title"><h3>效率工具</h3></div>
                     </div>
                 </div>
             </a>
@@ -115,7 +115,7 @@ a {
                     <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
-                        <div data-v-08c64233="" class="title">效率工具</div>
+                        <div data-v-08c64233="" class="title"><h1>效率工具</h1></div>
                     </div>
                 </div>
             </a>
@@ -124,7 +124,7 @@ a {
                     <div data-v-08c64233="" class="banner" style="background-image: url(/images/404.png); background-size: cover;">
                     </div>
                     <div data-v-08c64233="" class="message">
-                        <div data-v-08c64233="" class="title">效率工具</div>
+                        <div data-v-08c64233="" class="title"><h2>效率工具</h2></div>
                     </div>
                 </div>
             </a>
