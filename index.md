@@ -1,5 +1,5 @@
 ---
-title: 技术档案
+title: 归档目录
 ---
 
 <style>
@@ -109,7 +109,7 @@ a:hover {
 
 <div class="events-wrap">
     <div class="events-list">
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="effect-tool.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -118,7 +118,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="program-lang.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -127,7 +127,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="design-pattern.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -136,7 +136,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="system-arch.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -145,7 +145,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="data-storage.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -154,7 +154,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="basic-framework.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -163,7 +163,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="data-structure.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -172,7 +172,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="operating-system.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -181,7 +181,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="classical-algorithm.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -190,7 +190,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="interview-bible.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
@@ -199,7 +199,7 @@ a:hover {
                 </div>
             </div>
         </a>
-        <a  class="events" href="" rel="nofollow noopener noreferrer" target="_blank">
+        <a  class="events" href="healthy-diet.html" rel="nofollow noopener noreferrer" target="_blank">
             <div class="events-inner">
                 <div class="banner" style="background-image: url(/images/cover.jpg); background-size: cover;">
                 </div>
