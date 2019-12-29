@@ -153,7 +153,7 @@ id | username | birthday
 
 > 主键索引，以主键 id 为索引列
 
-![](https://github.many.cloud/images/b-plus-tree.jpg)
+![](https://wiki.many.cloud/images/b-plus-tree.jpg)
 
 图片来源：[https://www.processon.com/view/5e0232efe4b0250e8aee9a07](https://www.processon.com/view/5e0232efe4b0250e8aee9a07)
 
@@ -229,7 +229,7 @@ MyISAM 存储引擎支持空间数据索引（R-Tree） ，可以用于地理数
 
 ### 5.1.4 结构图
 
-![](https://github.many.cloud/images/b-plus-tree.jpg)
+![](https://wiki.many.cloud/images/b-plus-tree.jpg)
 
 图片来源：[https://www.processon.com/view/5e0232efe4b0250e8aee9a07](https://www.processon.com/view/5e0232efe4b0250e8aee9a07)
 
@@ -279,7 +279,7 @@ id | username | birthday
 CREATE INDEX idx_username ON user (username); 
 ```
 
-![](https://github.many.cloud/images/mysql-non-clustered-index.jpg)
+![](https://wiki.many.cloud/images/mysql-non-clustered-index.jpg)
 
 图片来源：[https://www.processon.com/view/5e0380bce4b0250e8af1e391](https://www.processon.com/view/5e0380bce4b0250e8af1e391)
 
