@@ -63,6 +63,12 @@ a {
     color: #909090;
 }
 
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #909090;
+}
+
 .events .events-inner .banner {
     padding-top: 58.82%;
     background-color: #ccc;
