@@ -93,6 +93,9 @@ a {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
+    background-color: #fff;
+    color: #333;
+    line-height:40px;
 }
 </style>
 
